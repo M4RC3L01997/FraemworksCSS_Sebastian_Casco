@@ -1,0 +1,152 @@
+/***********************
+ESTILOS DEL BODY
+***********************/
+
+.music-body{
+	background: rgba(255, 255, 255,1.0);
+}
+
+
+/******************************
+CABECERA, LOGO Y REDES SOCIALES
+*******************************/
+.main-header{
+	min-height: 10%;
+	box-shadow: 2px 2px 5px #000000;
+	opacity: .9;	
+}
+
+
+.logo-img{
+	width: 100px;
+	border-radius: 50%;
+	
+}
+
+.redes-sociales{
+	margin-top: 30px;
+	
+	
+}
+
+.img-social{
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	margin-top: 60px;		
+}
+
+/*************************
+BARRA DE NAVEGACIÓN
+**************************/
+
+.container-fluid{
+	padding-left: 8px;
+}
+.col-navbar{
+	background-color: #d35400;
+	
+}
+.navbar{
+	width: 100%;	
+}
+
+.lista-nav{
+	width: 135px;
+	
+}
+.list-group .col-lg-2 .lista-nav{
+	border-radius: 0px;
+	background-color: #d35400;
+	border: none;
+	transition: background-color .5s;	
+		
+}
+.list-group .col-lg-2 .lista-nav:hover{
+	background-color: gold;
+}
+
+.enlace-nav{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;		
+}
+.enlace-nav:hover{
+	color: black;
+}
+/*****************
+COLUMNA IZQUIERDA
+*****************/
+.background-overlay{
+	background: rgba(223, 249, 251,.2);
+}
+
+.img-principal{
+	height: 260px;
+    padding: 6px;
+    margin-top: 3px;
+	width: 300px;	
+}
+/*****************************
+COLUMNA DERECHA
+****************************/
+.column-right{
+	background-color: rgba(200, 214, 229,1.0);
+}
+.cuadro-busqueda{
+	border-radius: 20px;
+}
+.btn-search{
+	margin: 7px 0px 10px 25px;
+	border-radius: 7px;
+}
+.list-group{
+	list-style: none;
+}
+.col-search{
+	background-color: rgba(255, 107, 107,.2);
+	border-radius: 10px;
+	border-bottom: dashed 1px gray;
+}
+.link-search{
+	color: black;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+
+
+@media (max-width:770px){
+	.row{
+		width: 100%;
+		margin: 0px;
+		
+	}
+	.lista-nav{
+		text-align: center;
+		
+	}
+	.container-fluid{
+		padding: 0px;
+		text-align: center;
+	}
+	.navbar{
+		padding: 0px;
+		
+	}
+	
+	.img-principal{
+		width: 100%;
+		
+	}
+	textarea{
+		width: 100%;
+	}
+	.list-group{
+	display: initial !important;
+	margin: 0 auto;
+	}
+}
+
+
+
