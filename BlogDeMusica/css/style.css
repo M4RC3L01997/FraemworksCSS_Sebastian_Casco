@@ -79,6 +79,7 @@ COLUMNA IZQUIERDA
 *****************/
 .background-overlay{
 	background: rgba(223, 249, 251,.2);
+	box-shadow: 3px 3px 7px black;
 }
 
 .img-principal{
